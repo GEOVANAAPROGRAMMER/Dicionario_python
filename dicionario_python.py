@@ -7,3 +7,15 @@ tabela['palmeiras'] = [12, 4, 1, 10]
 tabela['santos'] = [5, 1, 4, 9]
 
 print(tabela)
+
+                #Aterando os valores da chave palmeiras dentro do dicionário
+tabela['palmeiras'] = [12, 4, 10, 4]
+print("*************************************************************************************************")
+print(tabela)
+
+
+reg = tabela['palmeiras']
+reg[2] = 16
+reg[3] = 8
+
+print(tabela)
