@@ -10,10 +10,10 @@ print(tabela)
 
                 #Aterando os valores da chave palmeiras dentro do dicionário
 tabela['palmeiras'] = [12, 4, 10, 4]
-print("*************************************************************************************************")
+print("******************************************************************************************")
 print(tabela)
 
-
+                #Aterando apenas alguns valores da chave palmeiras dentro do dicionário
 reg = tabela['palmeiras']
 reg[2] = 16
 reg[3] = 8
